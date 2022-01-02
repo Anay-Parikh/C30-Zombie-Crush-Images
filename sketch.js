@@ -30,7 +30,7 @@ function setup() {
   bridge = new Bridge(int((width-600)/50), {x: 15, y: 400});
   wall2 = new Base(width-20, 400, 300, 200);
   ground = new Base(width/2, 1000, width, 20);
-  zombie = createSprite(100, 850);
+  zombie = createSprite(100, 200);
   zombie.addImage(zombieImg);
   zombie.scale = 0.2;
 
